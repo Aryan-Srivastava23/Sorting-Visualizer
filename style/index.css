@@ -1,0 +1,121 @@
+h1{
+
+    font-size: 100px;
+   margin-top: 300px;
+   text-align: center;
+    margin-left:100px;
+    margin-right: 100px;
+   margin-bottom: 400px;
+  
+   }
+  
+  body{
+    background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  h2{
+    font-size: 35px;
+    /* margin-left: 100px; */
+    /* margin-left: 300px;
+    margin-right: 100px; */
+  }
+  p{
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration-color: grey;
+  
+  }
+  .pro{
+     color: rgb(255, 255, 0);
+    font-size: 50px;
+  }
+  .hub{
+    margin-left: 200px;
+    margin-right: 200px;
+    /* background-color:white; */
+    color: white;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+  
+  }
+  ul{
+    font-size: 20px;
+    font-style: oblique;
+  }
+  
+  
+  .haa{
+    /* width: 100px;
+    height: 100px; */
+    /* background-color: white; */
+    color: red;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {color: TURQUOISE;}
+    10%   {color:  RGB(46,204,113);}
+    20%   {color: RGB(52,152,219);}
+    30%   {color: RGB(155,89,182);}
+    40%   {color: RGB(52,73,94);}
+    50%   {color: RGB(44,62,80);}
+    60%   {color: RGB(142,68,173);}
+    70%   {color: RGB(230,126,34);}
+  
+    80%  {color: yellow;}
+    90%  {color: blue;}
+    100% {color: green;}
+  
+  }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
